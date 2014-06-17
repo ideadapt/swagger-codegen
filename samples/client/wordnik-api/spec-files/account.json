@@ -50,6 +50,7 @@
               "paramType":"path"
             },
             {
+              "name": "password",
               "description":"The user's password",
               "required":true,
               "dataType":"string",

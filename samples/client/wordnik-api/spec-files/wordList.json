@@ -16,6 +16,7 @@
               "paramType":"path"
             },
             {
+              "name": "wordlist_name",
               "description":"Updated WordList",
               "required":false,
               "dataType":"WordList",
@@ -144,6 +145,7 @@
               "paramType":"path"
             },
             {
+              "name": "word_array",
               "description":"Array of words to add to WordList",
               "required":false,
               "dataType":"Array[StringValue]",
@@ -286,6 +288,7 @@
               "paramType":"path"
             },
             {
+              "name": "word_array",
               "description":"Words to remove from WordList",
               "required":false,
               "dataType":"Array[StringValue]",
